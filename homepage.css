@@ -1,5 +1,29 @@
 h1 {
+    margin: 50px 750px 75px 750px;
+    font-family: monospace;
     text-color: blue;
     text-align: center;
     background-color: darkgrey;
+}
+
+.column {
+  float: left;
+  width: 10%;
+  padding-left: 0px;
+  margin-left: 250px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#profilelist {
+    font-size: 24px;
+    text-align: center;
+    font-family: monospace;
+    color: red;
+    text-shadow: .5px 1px black;
 }
